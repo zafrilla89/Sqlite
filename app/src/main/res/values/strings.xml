@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sqlite</string>
+    <string name="partidos">Partidos:</string>
+    <string name="title_activity_verpartidos">Verpartidos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="valoracion">Valoracion:</string>
+    <string name="contrincantes">Contrincantes:</string>
+    <string name="title_activity_altajugador">altajugador</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alta_jugador">Alta_jugador</string>
+    <string name="volver">Volver</string>
+    <string name="title_activity_alta_partido">Alta_partido</string>
+    <string name="alta">Alta</string>
+    <string name="altas">Altas</string>
+    <string name="verpartido">Ver partidos</string>
+    <string name="title_activity_verpartido">Verpartido</string>
+
+</resources>
