@@ -17,5 +17,6 @@
     <string name="altas">Altas</string>
     <string name="verpartido">Ver partidos</string>
     <string name="title_activity_verpartido">Verpartido</string>
+    <string name="liga">LIGA DE FUTBOL</string>
 
 </resources>
