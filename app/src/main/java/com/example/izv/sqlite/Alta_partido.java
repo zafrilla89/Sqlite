@@ -91,7 +91,7 @@ public class Alta_partido extends Activity {
         Partido p;
         for (int i=0;i<datos.size();i++){
             p=datos.get(i);
-            if(p.getContrincante()==p2.getContrincante() && p.getId_jugador()==p2.getId_jugador()){
+            if(p.getContrincante().compareTo(p2.getContrincante())==0 && p.getId_jugador()==p2.getId_jugador()){
                 return false;
             }
         }

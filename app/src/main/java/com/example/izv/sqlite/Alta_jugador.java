@@ -71,7 +71,5 @@ public class Alta_jugador extends Activity {
         a.getCursor().close();
         Cursor c = gj.getCursor();
         a.changeCursor(c);
-        Toast.makeText(this, "Jugador creado, id " + id, Toast.LENGTH_SHORT).show();
-
     }
 }

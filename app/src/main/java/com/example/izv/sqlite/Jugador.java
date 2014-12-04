@@ -6,19 +6,12 @@ import java.io.Serializable;
  */
 
 //CLASE POJO
-public class Jugador implements Serializable, Comparable<Jugador>{
+public class Jugador{
 
     private long id;
     private String nombre;
     private String telefono;
     private String fnac;
-
-    //1º constructor predeterminado
-    //2ª constructor completo
-    //3º Todos los get y set
-    //4º equals, hashcode -> clave principal de la tabla
-    //5º compareTo
-    //6º toString
 
     public Jugador(){
         this("", 0, "", "");
@@ -72,35 +65,5 @@ public class Jugador implements Serializable, Comparable<Jugador>{
     public void setFnac(String fnac) {
         this.fnac = fnac;
     }
-
-    @Override
-    public int compareTo(Jugador jugador) {
-        //Jugadores ->this, jugador
-
-            if (this.nombre.compareTo(jugador.nombre) != 0) {
-                return this.nombre.compareTo(jugador.nombre);
-            } else {
-                return this.fnac.compareTo(jugador.fnac);
-            }
-
-    }
-
-
-
-    @Override
-    public int hashCode() {
-        return (int) (id ^ (id >>> 32));
-    }
-
-    @Override
-    public String toString() {
-        return "Jugador{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", telefono='" + telefono + '\'' +
-                ", fnac='" + fnac + '\'' +
-                '}';
-    }
-
 
 }

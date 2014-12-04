@@ -63,11 +63,4 @@ public class Partido{
         this.contrincante = contrincante;
     }
 
-    public boolean equals(Object o) {
-        Partido p = (Partido) o;
-        if (contrincante.compareTo(p.contrincante)==0 && id_jugador==p.id_jugador) {
-            return true;
-        }
-        return false;
-    }
 }
